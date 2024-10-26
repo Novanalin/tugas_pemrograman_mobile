@@ -71,6 +71,10 @@ class _TebakKataPilihanState extends State<TebakKataPilihan> {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
+              // Tambahkan gambar
+              Image.asset('assets/images/Layer-6332.png'),
+              SizedBox(height: 20),
+
               // Display message
               Text(
                 _message,
